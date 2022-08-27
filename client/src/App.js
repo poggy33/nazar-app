@@ -20,16 +20,15 @@ const App = () => {
     }).then((res) => {
       setUserName(res.data.username);
     });
-  };
+  }
   getUserName();
 
   return (
     <div className="app">
       <Navbar />
-   
       <Routes>
-        <Route path="/" element={<List username={userName}/>} />
-        <Route path="/new" element={<NewJob username={userName}/>} />
+        <Route path="/" element={<List username={userName} />} />
+        <Route path="/new" element={<NewJob username={userName} />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/email" element={<SendEmail />} />
