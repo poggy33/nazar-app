@@ -1,0 +1,23 @@
+.navbar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: rgb(18, 19, 19);
+padding: 10px 10px;
+}
+
+.navbar a {
+   margin-right: 10px;
+   text-decoration: none;
+   color: white;
+}
+
+.navbar_pages {
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar_registration {
+    display: flex;
+    align-items: flex-end;
+}

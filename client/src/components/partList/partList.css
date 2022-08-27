@@ -1,0 +1,13 @@
+.list_body {
+    display: flex;
+}
+
+.list_data {
+min-width:200px;
+margin-bottom: 10px;
+}
+
+.list_body button {
+    height: 25px;
+    margin-top: 35px;
+}

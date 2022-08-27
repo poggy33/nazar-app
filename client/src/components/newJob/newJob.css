@@ -1,0 +1,44 @@
+.new_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.new_form input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.new_form select {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 85px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.new {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.new_form button {
+    width: 120px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.new_form label {
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+option {
+    color: black;
+}

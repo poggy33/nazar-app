@@ -1,0 +1,23 @@
+.email_input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.email_input input {
+    width: 245px;
+    font-size: 14px;
+}
+
+.email_submit input {
+    margin-top: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 120px;
+}

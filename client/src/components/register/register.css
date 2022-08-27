@@ -1,0 +1,21 @@
+.register  {
+    display: flex;
+    flex-direction: column;
+}
+
+.register input {
+    width: 250px;
+    margin-top: 20px;
+    height: 25px;
+}
+
+.register button {
+    width: 120px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.register_container {
+    margin-left: 10px;
+    margin-top: 10px;
+}
