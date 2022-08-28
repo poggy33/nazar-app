@@ -43,7 +43,7 @@ const NewJob = (props) => {
         ></input>
         <label>Start Hour:</label>
         <select
-          size="5"
+          // size="5"
           value={start}
           onChange={(event) => setStart(event.target.value)}
         >
@@ -67,7 +67,7 @@ const NewJob = (props) => {
         </select>
         <label>End Hour:</label>
         <select
-          size="5"
+          // size="5"
           value={end}
           onChange={(event) => setEnd(event.target.value)}
         >
