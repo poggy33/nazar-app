@@ -11,10 +11,11 @@
 .email_input input {
     width: 245px;
     font-size: 14px;
+    height: 25px;
 }
 
 .email_submit input {
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 15px;
     color: white;
     background-color: black;

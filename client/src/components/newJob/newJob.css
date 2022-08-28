@@ -8,14 +8,14 @@
     margin-top: 5px;
     margin-bottom: 10px;
     width: 220px;
-    height: 25px;
+    height: 35px;
     font-size: 16px;
 }
 
 .new_form select {
     margin-top: 7px;
     margin-bottom: 15px;
-    width: 100px;
+    width: 120px;
     height: 35px;
     border-radius: 5px;
     text-align: center;
@@ -30,7 +30,7 @@
 .new_form button {
     width: 120px;
     margin-top: 20px;
-    height: 30px;
+    height: 35px;
 }
 
 .new_form label {
